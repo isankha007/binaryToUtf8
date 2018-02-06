@@ -135,7 +135,7 @@ void processBinaryData(char* pBinaryData,int32_t n,char *unicodeString){
             i++;
         }
         GetUnicodeChar(bin2dec(arr),unicodeString);
-        int2utf8(bin2dec(arr));
+        //int2utf8(bin2dec(arr));
         //printf("%s\n", int2utf8(bin2dec(arr)));
 ///////////////////
 
@@ -143,7 +143,7 @@ void processBinaryData(char* pBinaryData,int32_t n,char *unicodeString){
     else{
 
         GetUnicodeChar(bin2dec(pBinaryData),unicodeString);
-        int2utf8(bin2dec(pBinaryData));
+        //int2utf8(bin2dec(pBinaryData));
         //printf("%s\n", int2utf8(bin2dec(pBinaryData)));
 
         return;
